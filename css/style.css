@@ -1,0 +1,211 @@
+/********************************************************/
+/********************************************************/
+/**********************CONTAINER*************************/
+/********************************************************/
+/********************************************************/
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+}
+
+#grid-container {
+    margin: auto;
+    height: 80vh;
+    width: 1000px;
+    display: grid;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    grid-template-areas: 
+        'w1 w2 w2 w2 w2 w2 w2 w2 w3 w3 w3 w3 w3 w3 w3 w3 w4 y1'
+        'w1 b1 b1 b1 b1 b1 b1 b1 w5 w5 w5 b2 b2 b2 b2 b2 w4 y1'
+        'w1 b1 b1 b1 b1 b1 b1 b1 w5 w5 w5 b2 b2 b2 b2 b2 w4 y1'
+        'n1 w6 w6 n2 w7 w7 w7 w8 y2 y2 y2 r1 r1 r1 r1 r2 w4 y1'
+        'n1 w6 w6 n2 w7 w7 w7 w8 y2 y2 y2 r1 r1 r1 r1 r2 w4 y1'
+        'n1 w6 w6 n2 w7 w7 w7 w8 y2 y2 y2 r1 r1 r1 r1 r2 w4 y1'
+        'n1 w6 w6 n2 w7 w7 w7 w8 y2 y2 y2 r1 r1 r1 r1 r2 w4 y1'
+        'n1 w6 w6 n2 w7 w7 w7 w8 y2 y2 y2 r1 r1 r1 r1 r2 w4 y1'
+        'n1 w6 w6 n2 y3 r3 r3 r3 b3 b3 b3 w9 w9 w9 w9 w10 n3 n3'
+        'n1 w6 w6 n2 y3 r3 r3 r3 b3 b3 b3 w9 w9 w9 w9 w10 n3 n3'
+        'w11 r4 r4 n2 y4 w13 w13 w13 w13 w13 w14  w14  w14  b4  b4  y5 w15 w15'
+        'w11 r4 r4 n2 y4 w13 w13 w13 w13 w13 w14  w14  w14  b4  b4  y5 w15 w15'
+        'w11 r4 r4 n2 y4 w13 w13 w13 w13 w13 w14  w14  w14  b4  b4  y5 w15 w15'
+        'w11 r4 r4 n2 y4 w13 w13 w13 w13 w13 w14  w14  w14  b4  b4  y5 w15 w15'
+        'w11 r4 r4 n2 y4  r5  r5  r5  n4  n4  n4  n4  n4  w16  w16  w16  w16  w16'
+        'w12 w12 w12 w12 y4  r5  r5  r5  n4  n4  n4  n4  n4  w16  w16  w16  w16  w16'
+        'w12 w12 w12 w12 y4  r5  r5  r5  n4  n4  n4  n4  n4  w16  w16  w16  w16  w16';
+    grid-gap: 8px;
+}
+
+/********************************************************/
+/********************************************************/
+/************************AREAS***************************/
+/********************************************************/
+/********************************************************/
+
+#item1 {
+    grid-area: w1;
+}
+
+#item2 {
+    grid-area: w2;
+}
+
+#item3 {
+    grid-area: w3;
+}
+
+#item4 {
+    grid-area: w4;
+}
+
+#item5 {
+    grid-area: y1;
+}
+
+#item6 {
+    grid-area: b1;
+}
+
+#item7 {
+    grid-area: w5;
+}
+
+#item8 {
+    grid-area: b2;
+}
+
+#item9 {
+    grid-area: n1;
+}
+
+#item10 {
+    grid-area: w6;
+}
+
+#item11 {
+    grid-area: n2;
+}
+
+#item12 {
+    grid-area: w6;
+}
+
+#item13 {
+    grid-area: w7;
+}
+
+#item14 {
+    grid-area: y2;
+}
+
+#item15 {
+    grid-area: w8;
+}
+
+#item16 {
+    grid-area: r1;
+}
+
+#item17 {
+    grid-area: r2;
+}
+
+#item18 {
+    grid-area: y3;
+}
+
+#item19 {
+    grid-area: r3;
+}
+
+#item20 {
+    grid-area: b3;
+}
+
+#item21 {
+    grid-area: w9;
+}
+
+#item22 {
+    grid-area: w10;
+}
+
+#item23 {
+    grid-area: y4;
+}
+
+#item24 {
+    grid-area: w11;
+}
+
+#item25 {
+    grid-area: w12;
+}
+
+#item26 {
+    grid-area: r4;
+}
+
+#item27 {
+    grid-area: w13;
+}
+
+#item28 {
+    grid-area: w14;
+}
+
+#item29 {
+    grid-area: n3;
+}
+
+#item30 {
+    grid-area: w15;
+}
+
+#item31 {
+    grid-area: y5;
+}
+
+#item32 {
+    grid-area: b4;
+}
+
+#item33 {
+    grid-area: w16;
+}
+
+#item34 {
+    grid-area: r5;
+}
+
+#item35 {
+    grid-area: n4;
+}
+
+/********************************************************/
+/********************************************************/
+/************************COLORS**************************/
+/********************************************************/
+/********************************************************/
+
+#item1, #item2, #item3, #item4, #item7, #item10, #item12, #item13, #item15
+, #item21, #item22, #item24, #item25, #item27, #item28, #item30, #item33 {
+    background-color: #E5E5E5;
+}
+
+#item5, #item14, #item18, #item23, #item31 {
+    background-color: #F3C112;
+}
+
+#item6, #item8, #item20, #item32 {
+    background-color: #0E016B;
+}
+
+#item9, #item11, #item29, #item35 {
+    background-color: black;
+}
+
+#item16, #item17, #item19, #item26, #item34 {
+    background-color: #C40200;
+}
